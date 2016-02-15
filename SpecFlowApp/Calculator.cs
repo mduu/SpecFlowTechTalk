@@ -9,13 +9,13 @@
         /// Sets the first number for the math operation.
         /// </summary>
         /// <value>The first number.</value>
-        public int FirstNumber { set; private get; }
+        public int FirstNumber { set; get; }
 
         /// <summary>
         /// Sets the second number for the math operation.
         /// </summary>
         /// <value>The second number.</value>
-        public int SecondNumber { set; private get; }
+        public int SecondNumber { set; get; }
 
         /// <summary>
         /// Adds <see cref="FirstNumber"/> and <see cref="SecondNumber"/> and
