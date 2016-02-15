@@ -15,8 +15,11 @@ namespace SpecFlow.App
             var result = calc.Add();
 
             Console.WriteLine($"{calc.FirstNumber} + {calc.SecondNumber} = {result}");
+
+#if DEBUG
             Console.WriteLine("Press any key");
             Console.ReadKey();
+#endif
         }
     }
 }
